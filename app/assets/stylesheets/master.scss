@@ -1,1 +1,113 @@
-@import "bootstrap";
+@import 'bootstrap';
+
+.navbar {
+  font-family: "robotoregular", sans-serif;
+  font-weight: 200;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background: image_url("white-waves.png");
+  margin: 0;
+}
+
+.navbar-inverse a.navbar-brand {
+  font-family: "robotoregular", sans-serif;
+  font-weight: 100;
+  color: #999999;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "robotoregular", sans-serif;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0;
+}
+.hero {
+  background: image_url("javaCode.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 370px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+
+}
+.frosty {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  h1 {
+    font-family: "robotoregular", sans-serif;
+    font-weight: 100;
+    text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  }
+  h2 {
+    font-family: "robotoregular", sans-serif;
+    font-weight: 200;
+    text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  }
+}
+.btn {
+  border-radius: 0;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+body {
+  background: image_url('ps_neutral.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 10px;
+}
+
+.booyah-box h2, .booyah-box h1 {
+  margin: 10px;
+}
+
+.help-block {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding: 2px 8px 2px 8px;
+  margin: 10px;
+}
+
+.clr {
+  clear: both;
+}
+
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+  color: #999999;
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+  color: #999999;
+}
