@@ -8,11 +8,17 @@
   margin: 0;
 }
 
-.navbar-inverse a.navbar-brand {
+.navbar-inverse a.navbar-brand,
+.navbar-inverse .navbar-nav .nav-link {
   font-family: "robotoregular", sans-serif;
   font-weight: 100;
   color: #999999;
+  &:hover,
+  &:focus {
+    color: #656565;
+  }
 }
+
 
 h1,
 h2,
