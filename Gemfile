@@ -79,3 +79,6 @@ gem 'font-awesome-rails'
 
 # devise
 gem 'devise'
+
+# gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 2.0'
