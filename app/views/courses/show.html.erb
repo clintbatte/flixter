@@ -1,9 +1,11 @@
-<br />
+<br/>
 
 <div class="booyah-box col-10 offset-1">
   <h1><%= @course.title %></h1>
-  <%= image_tag @course.image, class: 'img-fluid' %>
-  <br />
+  <% if @course.image.url != nil %>
+    <%= image_tag @course.image.to_s, class: 'img-fluid' %>
+  <% end %>
+  <br/>
   <div class="row">
     <div class="col-sm-4 col-12">
       <span class="badge badge-default">
@@ -11,8 +13,8 @@
       </span>
 
       <% if current_user && current_user == @course.user %>
-        <br />
-        <br />
+        <br/>
+        <br/>
         <%= link_to 'Administer', instructor_course_path(@course), class: 'btn btn-danger btn-large' %>
       <% end %>
     </div>
