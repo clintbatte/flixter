@@ -94,3 +94,6 @@ gem 'mini_magick'
 
 # gem 'carrierwave-aws'
 gem 'carrierwave-aws'
+
+#gem 'hirb'
+gem 'hirb'
