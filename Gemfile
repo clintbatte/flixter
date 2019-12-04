@@ -97,3 +97,6 @@ gem 'carrierwave-aws'
 
 #gem 'hirb'
 gem 'hirb'
+
+#gem 'stripe'
+gem 'stripe'
