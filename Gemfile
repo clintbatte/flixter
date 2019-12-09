@@ -100,3 +100,6 @@ gem 'hirb'
 
 #gem 'stripe'
 gem 'stripe'
+
+#gem 'ranked-model'
+gem 'ranked-model'
