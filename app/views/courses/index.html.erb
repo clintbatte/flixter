@@ -8,8 +8,8 @@
     <h2 class="text-center">
       <%= link_to course.title, course_path(course) %>
 
-      <% if course_path(course) != nil %>
-        <%= image_tag course_path(course).to_s, class: 'img-fluid' %>
+      <% if course.image.url != nil %>
+        <%= image_tag course.image.url, class: 'img-fluid' %>
       <% end %>
     </h2>
     <br/>
