@@ -15,7 +15,6 @@ Rails.application.routes.draw do
       resources :lessons, only: %i[new create]
     end
     resources :courses, only: %i[new create show] do
-      resources :sections, only: %i[new create]
     end
   end
 end
